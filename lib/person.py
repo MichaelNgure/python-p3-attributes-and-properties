@@ -41,6 +41,5 @@ class Person:
         else:
             self._job = job
             
-    name = property(get_name, set_name)
     job = property(get_job, set_job)
 
